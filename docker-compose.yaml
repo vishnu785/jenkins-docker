@@ -2,9 +2,17 @@ version: '3.8'
 services:
   # React.js app service
   react_app:
-    build:
-      image: shahzaib2468/quiz-react-app:latest
-      dockerfile: Dockerfile
+    image: shahzaib2468/quiz-react-app:latest
     ports:
       - "3000:3000"
+      
+# version: '3.8'
+# services:
+#   # React.js app service
+#   react_app:
+#     build:
+#       image: shahzaib2468/quiz-react-app:latest
+#       dockerfile: Dockerfile
+#     ports:
+#       - "3000:3000"
 
