@@ -3,7 +3,7 @@ services:
   # TypeScript app service
   typescript_app:
     build:
-      context: .
+      image: shahzaib2468/quiz-react-app
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
