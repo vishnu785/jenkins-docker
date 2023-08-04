@@ -48,7 +48,7 @@ function App() {
   return (
     <div className='App'>
 
-      <h1 className='heading'>Quiz Application</h1>
+      <h1 className='heading'>Typescript Quiz Application</h1>
       <h2 style={{textAlign:"center", padding:"15px", color:"yellow"}}> {score}/{quiz.length} </h2>
 
       <QuestionCard
