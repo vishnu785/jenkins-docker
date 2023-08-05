@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  # React.js app service
+  react_app:
+    image: vishnu785/quiz-react-app:latest
+    ports:
+      - "3000:3000"
